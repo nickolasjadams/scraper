@@ -1,0 +1,42 @@
+#####
+#
+# Lines that start with '#' will be ignored.
+# Put the urls you'd like to scan in here.
+#
+# This will be the default url batch loaded into the program.
+#
+# Format should be
+# "Title surrounded by quotes" https://url.goes/here
+#
+# This file can be simplified with a reserved keyword 'site'
+# Considering that your scraping will rely on markup. 
+# The urls you're gathering from should have a similar markup structure.
+# So url batches should start with the same site url.
+#
+# Another reserved keyword will set the default element selectors
+# for the data you want to collect from. That word is 'selector'
+# You can use this the same way you would select with css or jquery.
+# If the website you need data from has jquery loaded, you can 
+# test queries in the console with `$("#selector").text()`.
+#
+#####
+
+
+site="https://www.bookemon.com/book-profile/"
+
+selector="h1+div+div>span:nth-child(2)>b"
+
+
+"Book 1 Hardcover" the-sunset-and-the-sunrise/693279
+"Book 1 Softcover" the-sunset-and-the-sunrise/693277
+"Book 2 Hardcover" out-of-the-past-and-into-the-light/693283
+"Book 2 Softcover" out-of-the-past-and-into-the-light/693281
+"Book 3 Hardcover" season-wisdom/101228
+"Book 4 Hardcover" tabled-doubts-and-conquered-fears/693290
+"Book 4 Softcover" tabled-doubts-and-conquered-fears/693288
+"Book 5 Hardcover" some-might-say/693292
+"Book 5 Softcover" some-might-say/693291
+"Book 6 Hardcover" too-forward-just-right/693287
+"Book 6 Softcover" too-forward-just-right/693286
+"Book 7 Hardcover" first-steps/693285
+"Book 7 Softcover" first-steps/693284
