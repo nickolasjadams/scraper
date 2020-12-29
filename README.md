@@ -5,9 +5,8 @@ I built this app as a weekend project as an introduction to Python's tkinter GUI
 
 py2app was used to create a stand-alone app for Mac.
 
-To use the app you can clone this repository and double click the Scraper app in /dist.
-
-Copy the app to your Applications folder to keep it in your Launchpad.
+To use the app you can download the Scraper.zip
+Then drag the app to your Applications folder to add it in your Launchpad.
 
 For developers that want to work with it.
 
