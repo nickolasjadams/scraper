@@ -1,5 +1,5 @@
 
-<div style="text-align: center;"><img src="scraper.png" style="width: 200px;"/></div>
+<div style="text-align: center; width: 200px;"><img src="scraper.png" style="width: 200px;"/></div>
 
 I built this app as a weekend project as an introduction to Python's tkinter GUI toolkit. I used Beatiful Soup 4, and Webbot to make a general scraper for a friend.
 
